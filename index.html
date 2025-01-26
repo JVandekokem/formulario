@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Verificação</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Verificação de Equipamentos</h1>
+        <form id="verificacaoForm">
+            <div class="question">
+                <label for="tag">TAG:</label>
+                <input type="text" id="tag" name="tag" placeholder="Digite o nome aqui">
+            </div>
+            <div class="question">
+                <label for="identificacao">VERIFICAR IDENTIFICAÇÃO FIXADA/LEGÍVEL?</label>
+                <div class="options">
+                    <input type="radio" id="identificacaoConforme" name="identificacao" value="Conforme">
+                    <label for="identificacaoConforme">Conforme</label>
+                </div>
+                <div class="options">
+                    <input type="radio" id="identificacaoNaoConforme" name="identificacao" value="Não conforme">
+                    <label for="identificacaoNaoConforme">Não conforme</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="extintor">VERIFICAR PRESENÇA DE EXTINTOR NO LOCAL</label>
+                <div class="options">
+                    <input type="radio" id="extintorConforme" name="extintor" value="Conforme">
+                    <label for="extintorConforme">Conforme</label>
+                </div>
+                <div class="options">
+                    <input type="radio" id="extintorNaoConforme" name="extintor" value="Não conforme">
+                    <label for="extintorNaoConforme">Não conforme</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="iluminacao">VERIFICAR ILUMINAÇÃO DE EMERGÊNCIA</label>
+                <div class="options">
+                    <input type="radio" id="iluminacaoConforme" name="iluminacao" value="Conforme">
+                    <label for="iluminacaoConforme">Conforme</label>
+                </div>
+                <div class="options">
+                    <input type="radio" id="iluminacaoNaoConforme" name="iluminacao" value="Não conforme">
+                    <label for="iluminacaoNaoConforme">Não conforme</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <label for="sinalizacao">VERIFICAR SINALIZAÇÕES OBRIGATÓRIAS</label>
+                <div class="options">
+                    <input type="radio" id="sinalizacaoConforme" name="sinalizacao" value="Conforme">
+                    <label for="sinalizacaoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                    <input type="radio" id="sinalizacaoNaoConforme" name="sinalizacao" value="Não conforme">
+                    <label for="sinalizacaoNaoConforme">Não conforme</label>
+                </div>
+            </div>
+                <div class="question">
+                    <label for="painel">VERIFICAR CONDIÇÃO PAINEL EM GERAL</label>
+                    <div class="options">
+                        <input type="radio" id="painelConforme" name="painel" value="Conforme">
+                        <label for="painelConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="painelNaoConforme" name="painel" value="Não conforme">
+                        <label for="painelNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="botao">VERIFICAR CONDIÇÃO BOTÃO EMERGÊNCIA</label>
+                    <div class="options">
+                        <input type="radio" id="botaoConforme" name="botao" value="Conforme">
+                        <label for="botaoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="botaoNaoConforme" name="botao" value="Não conforme">
+                        <label for="botaoNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="cabo">VERIFICAR CONDIÇÃO CABO DE ATERRAMENTO</label>
+                    <div class="options">
+                        <input type="radio" id="caboConforme" name="cabo" value="Conforme">
+                        <label for="caboConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="caboNaoConforme" name="cabo" value="Não conforme">
+                        <label for="caboNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="borracha">VERIFICAR CONDIÇÃO BORRACHA VEDAÇÃO</label>
+                    <div class="options">
+                        <input type="radio" id="borracaConforme" name="borracha" value="Conforme">
+                        <label for="borrachaConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="borrachaNaoConforme" name="borracha" value="Não conforme">
+                        <label for="borrachaNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="obsoleto">VERIFICAR MATERIAL OBSOLETO NO INTERIOR</label>
+                    <div class="options">
+                        <input type="radio" id="obsoletoConforme" name="obsoleto" value="Conforme">
+                        <label for="obsoletoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="obsoletoNaoConforme" name="obsoleto" value="Não conforme">
+                        <label for="obsoletoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="eletrico">VERIFICAR DIAGRAMA ELÉTRICO DISPONÍVEL</label>
+                    <div class="options">
+                        <input type="radio" id="eletricoConforme" name="eletrico" value="Conforme">
+                        <label for="eletricoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="eletricoNaoConforme" name="eletrico" value="Não conforme">
+                        <label for="eletricoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="canaleta">VERIFICAR CANALETAS E ABERTURAS</label>
+                    <div class="options">
+                        <input type="radio" id="canaletaConforme" name="canaleta" value="Conforme">
+                        <label for="canaletaConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="canaletaNaoConforme" name="canaleta" value="Não conforme">
+                        <label for="canaletaNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="cooler">VERIFICAR FUNCIONAMENTO COOLERS</label>
+                    <div class="options">
+                        <input type="radio" id="coolerConforme" name="cooler" value="Conforme">
+                        <label for="coolerConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="coolerNaoConforme" name="cooler" value="Não conforme">
+                        <label for="coolerNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="sujeira">VERIFICAR PONTOS INFILTRAÇÃO SUJEIRA</label>
+                    <div class="options">
+                        <input type="radio" id="sujeiraConforme" name="sujeira" value="Conforme">
+                        <label for="sujeiraConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="sujeiraNaoConforme" name="sujeira" value="Não conforme">
+                        <label for="sujeiraNaoConforme">Não conforme</label>
+                    </div>
+                </div>       
+                <div class="question">
+                    <label for="infiltracao">VERIFICAR PONTOS INFILTRAÇÃO ÁGUA</label>
+                    <div class="options">
+                        <input type="radio" id="infiltracaoConforme" name="infiltracao" value="Conforme">
+                        <label for="infiltracaoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="infiltracaoNaoConforme" name="infiltracao" value="Não conforme">
+                        <label for="infiltracaoNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="danificado">VERIFICAR COMPONENTES INTERNOS DANIFICADOS</label>
+                    <div class="options">
+                        <input type="radio" id="danificadoConforme" name="danificado" value="Conforme">
+                        <label for="danificadoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="danificadoNaoConforme" name="danificado" value="Não conforme">
+                        <label for="danificadoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="protecao">VERIFICAR PROTEÇÃO CONTRA PARTES VIVAS</label>
+                    <div class="options">
+                        <input type="radio" id="protecaoConforme" name="protecao" value="Conforme">
+                        <label for="protecaoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="protecaoNaoConforme" name="protecao" value="Não conforme">
+                        <label for="protecaoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="solta">VERIFICAR CABOS/FIAÇÃO SOLTA OU EXPOSTA</label>
+                    <div class="options">
+                        <input type="radio" id="soltaConforme" name="solta" value="Conforme">
+                        <label for="soltaConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="soltaNaoConforme" name="solta" value="Não conforme">
+                        <label for="sotlaNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="sinal">VERIFICAR CABOS/FIAÇÃO SINAL AQUECIMENTO</label>
+                    <div class="options">
+                        <input type="radio" id="sinalConforme" name="sinal" value="Conforme">
+                        <label for="sinalConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="sinalNaoConforme" name="sinal" value="Não conforme">
+                        <label for="sinalNaoConforme">Não conforme</label>
+                    </div>
+                </div>    
+                <div class="question">
+                    <label for="queimado">VERIFICAR ODOR TIPO QUEIMADO </label>
+                    <div class="options">
+                        <input type="radio" id="queimadoConforme" name="queimado" value="Conforme">
+                        <label for="queimadoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="queimadoNaoConforme" name="queimado" value="Não conforme">
+                        <label for="queimadoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="anormal">VERIFICAR RUÍDO ANORMAL PAINEL ELÉTRICO</label>
+                    <div class="options">
+                        <input type="radio" id="anormalConforme" name="anormal" value="Conforme">
+                        <label for="anormalConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="arnomalNaoConforme" name="anormal" value="Não conforme">
+                        <label for="anormalNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="interior">REMOVER MATERIAL SEM USO NO INTERIOR</label>
+                    <div class="options">
+                        <input type="radio" id="interiorConforme" name="interior" value="Conforme">
+                        <label for="interiorConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="interioroNaoConforme" name="interior" value="Não conforme">
+                        <label for="interiorNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="medicao">CRIAR DOCUMENTO DE MEDIÇÃO</label>
+                    <div class="options">
+                        <input type="radio" id="medicaoConforme" name="medicao" value="Conforme">
+                        <label for="medicaoConforme">Conforme</label>
+                    </div>
+                <div class="options">
+                        <input type="radio" id="medicaoNaoConforme" name="medicao" value="Não conforme">
+                        <label for="medicaoNaoConforme">Não conforme</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label for="observacao">Observação:</label>
+                    <textarea id="observacao" name="observacao" rows="5" maxlength="2500" placeholder="Escreva suas observações aqui..."></textarea>
+                    <small>Máximo de 2500 caracteres.</small>
+                </div>
+    
+                <div class="question">
+                    <label for="uploadImagem">Anexar Foto (se necessário)</label>
+                    <input type="file" id="uploadImagem" name="uploadImagem" accept="image/*" multiple>
+                </div>
+                <button type="button" id="gerarPdf">Gerar PDF</button>
+            </form>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
+             
+
